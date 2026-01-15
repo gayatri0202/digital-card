@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.page-bg {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #2C477A, #2C477A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 28px;
+    padding: 30px 22px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+}
+
+.logo-wrap {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background: #eef3f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrap img {
+    width: 90px;
+}
+
+h2 {
+    margin-top: 18px;
+    color: #2C477A;
+}
+
+.tagline {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #6b7c85;
+}
+
+.action-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+
+.action-btns a {
+    flex: 1;
+    background: #2C477A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.action-btns i {
+    margin-right: 5px;
+}
+
+.info-box {
+    background: #f3f6f8;
+    border-radius: 18px;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.info-box p {
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.socials a {
+    width: 42px;
+    height: 42px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    color: #0b2e38;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+.logo-wrap {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    background: #eef3f6;
+    border-radius: 50%;
+    overflow: hidden;          /* 🔥 THIS IS KEY */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* 🔥 CROPS IMAGE TO CIRCLE */
+}
+.logo-wrap {
+    width: 140px;      /* 🔼 increased */
+    height: 140px;     /* 🔼 increased */
+    margin: 0 auto 6px; /* 🔽 reduce bottom gap */
+    background: #eef3f6;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 4px;    /* 🔽 reduce gap */
+    margin-bottom: 2px;
+    color: #0b2e38;
+}
